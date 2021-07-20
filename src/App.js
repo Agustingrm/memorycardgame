@@ -1,17 +1,27 @@
-import { useState } from "react";
-import Buttons from "./Buttons";
+import Game from "./Components/Game";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
 
 function App() {
-  const [cards, setCards] = useState([0,1, 2, 3, 4, 5, 6, 7, 8]);
-  
-  const handleShuffle = () => {
-    let shuffledCards = cards.sort(() => Math.random() - 0.5)
-    setCards([...shuffledCards])
+  const style = {
+    pageContainer: {
+      position: "relative",
+      minHeight: "100vh",
+    },
+    contentWrap: {
+      paddingBottom: "40px",
+    },
   };
 
   return (
     <div>
-      <Buttons cards={cards} handleShuffle={handleShuffle}/>
+      <div style={style.pageContainer}>
+        <div style={style.contentWrap}>
+          <Header />
+          <Game />
+        </div>
+        <Footer />
+      </div>
     </div>
   );
 }

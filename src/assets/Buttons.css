@@ -1,20 +1,21 @@
 .cardDivStyle {
   display: grid;
-  grid-template-columns: repeat(3, 200px);
-  grid-template-rows: repeat(3, 200px);
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: repeat(2, 200px);
+  margin: auto;
+  width: 1000px;
 }
 
 .cardStyle {
   width: 200px;
   height: 200px;
   align-content: center;
-  border: solid black 3px;
+  border: inset black 1px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .imgSize {
-  max-width: 150px;
-  max-height: 150px;
+  max-height: 190px;
 }
