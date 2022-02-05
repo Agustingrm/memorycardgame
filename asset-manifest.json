@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/memorycardgame/static/css/main.6a0132f5.chunk.css",
-    "main.js": "/memorycardgame/static/js/main.eba8f324.chunk.js",
-    "main.js.map": "/memorycardgame/static/js/main.eba8f324.chunk.js.map",
+    "main.js": "/memorycardgame/static/js/main.6af0cd71.chunk.js",
+    "main.js.map": "/memorycardgame/static/js/main.6af0cd71.chunk.js.map",
     "runtime-main.js": "/memorycardgame/static/js/runtime-main.7bd3f2a3.js",
     "runtime-main.js.map": "/memorycardgame/static/js/runtime-main.7bd3f2a3.js.map",
-    "static/js/2.b354366e.chunk.js": "/memorycardgame/static/js/2.b354366e.chunk.js",
-    "static/js/2.b354366e.chunk.js.map": "/memorycardgame/static/js/2.b354366e.chunk.js.map",
+    "static/js/2.94bff77b.chunk.js": "/memorycardgame/static/js/2.94bff77b.chunk.js",
+    "static/js/2.94bff77b.chunk.js.map": "/memorycardgame/static/js/2.94bff77b.chunk.js.map",
     "index.html": "/memorycardgame/index.html",
-    "static/css/main.6a0132f5.chunk.css.map": "/memorycardgame/static/css/main.6a0132f5.chunk.css.map",
-    "static/js/2.b354366e.chunk.js.LICENSE.txt": "/memorycardgame/static/js/2.b354366e.chunk.js.LICENSE.txt",
+    "static/js/2.94bff77b.chunk.js.LICENSE.txt": "/memorycardgame/static/js/2.94bff77b.chunk.js.LICENSE.txt",
     "static/media/1.8b336e04.svg": "/memorycardgame/static/media/1.8b336e04.svg",
     "static/media/10.afde5cf7.svg": "/memorycardgame/static/media/10.afde5cf7.svg",
     "static/media/2.63751dd6.svg": "/memorycardgame/static/media/2.63751dd6.svg",
@@ -20,12 +18,11 @@
     "static/media/7.ecc8826f.svg": "/memorycardgame/static/media/7.ecc8826f.svg",
     "static/media/8.b3bc489d.svg": "/memorycardgame/static/media/8.b3bc489d.svg",
     "static/media/9.2d8e5799.svg": "/memorycardgame/static/media/9.2d8e5799.svg",
-    "static/media/Index.css": "/memorycardgame/static/media/wallpaper.8c2f1ae5.png"
+    "static/media/wallpaper.36dcdc6f.png": "/memorycardgame/static/media/wallpaper.36dcdc6f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7bd3f2a3.js",
-    "static/js/2.b354366e.chunk.js",
-    "static/css/main.6a0132f5.chunk.css",
-    "static/js/main.eba8f324.chunk.js"
+    "static/js/2.94bff77b.chunk.js",
+    "static/js/main.6af0cd71.chunk.js"
   ]
 }
