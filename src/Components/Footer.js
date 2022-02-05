@@ -1,27 +1,28 @@
+import styled from "styled-components";
+
+const BoxStyled = styled.div`
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+  }
+`;
+
 function Footer() {
-  const styles = {
-    box: {
-      position: 'absolute',
-      bottom: '0',
-      width: '100%',
-      display: "flex",
-      backgroundColor: "black",
-      height: "40px",
-      alignItems: "center",
-      justifyContent: "center",
-    },
-    text: {
-      fontSize: "16px",
-      fontWeight: "500",
-      color: "white",
-    },
-  };
   return (
-    <div style={styles.box}>
-      <div style={styles.text}>
+    <BoxStyled>
+      <p>
         Made with <span style={{ color: "red" }}>♥</span> by Agustín Gramajo Gaitán
-      </div>
-    </div>
+      </p>
+    </BoxStyled>
   );
 }
 
