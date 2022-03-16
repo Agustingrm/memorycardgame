@@ -141,8 +141,8 @@ function Game() {
       )}
       <CardDivStyles>
         {cards.map((num) => (
-          <div className="cardStyle" key={num}>
-            <img src={imgIndex[num]} alt="pokemon" onClick={() => handleFunctions(num)} />
+          <div className="cardStyle" key={num} onClick={() => handleFunctions(num)}>
+            <img src={imgIndex[num]} alt="pokemon"  />
           </div>
         ))}
       </CardDivStyles>

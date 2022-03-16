@@ -5,6 +5,14 @@ const GlobalStyles = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 * {
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 body {
@@ -15,7 +23,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  box-sizing
 }
 
 button {
