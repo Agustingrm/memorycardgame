@@ -14,7 +14,7 @@ import styled from "styled-components";
 const CardDivStyles = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 200px);
-  grid-template-rows: repeat(2, minmax(50px, 200px));
+  grid-template-rows: repeat(2, minmax(0, 200px));
   margin: auto;
   max-width: 1000px;
   height: 100%;
