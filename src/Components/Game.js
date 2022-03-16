@@ -14,15 +14,17 @@ import styled from "styled-components";
 const CardDivStyles = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 200px);
-  grid-template-rows: repeat(2, 200px);
+  grid-template-rows: repeat(2, minmax(50px, 200px));
   margin: auto;
   max-width: 1000px;
   height: 100%;
   align-content: center;
+  padding: 5px 0;
+  box-sizing: border-box;
   .cardStyle {
     padding: 5px 0;
     width: 200px;
-    height: 200px;
+    height: 100%;
     align-content: center;
     border: inset black 1px;
     display: flex;
@@ -142,7 +144,7 @@ function Game() {
       <CardDivStyles>
         {cards.map((num) => (
           <div className="cardStyle" key={num} onClick={() => handleFunctions(num)}>
-            <img src={imgIndex[num]} alt="pokemon"  />
+            <img src={imgIndex[num]} alt="pokemon" />
           </div>
         ))}
       </CardDivStyles>

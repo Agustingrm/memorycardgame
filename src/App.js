@@ -14,8 +14,13 @@ const PageContainerStyles = styled.div`
     height: 100vh;
     display: grid;
     width: 100%;
-    grid-template-rows: 15% 85%;
+    grid-template-rows: 90px calc(100% - 90px);
     align-content: center;
+  }
+  @media all and (max-width: 700px) {
+    .contentWrap {
+      grid-template-rows: 75px calc(100% - 75px);
+    }
   }
 `;
 
