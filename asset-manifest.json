@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/memorycardgame/static/js/main.220903ce.chunk.js",
-    "main.js.map": "/memorycardgame/static/js/main.220903ce.chunk.js.map",
+    "main.js": "/memorycardgame/static/js/main.db254da7.chunk.js",
+    "main.js.map": "/memorycardgame/static/js/main.db254da7.chunk.js.map",
     "runtime-main.js": "/memorycardgame/static/js/runtime-main.7bd3f2a3.js",
     "runtime-main.js.map": "/memorycardgame/static/js/runtime-main.7bd3f2a3.js.map",
     "static/js/2.94bff77b.chunk.js": "/memorycardgame/static/js/2.94bff77b.chunk.js",
@@ -23,6 +23,6 @@
   "entrypoints": [
     "static/js/runtime-main.7bd3f2a3.js",
     "static/js/2.94bff77b.chunk.js",
-    "static/js/main.220903ce.chunk.js"
+    "static/js/main.db254da7.chunk.js"
   ]
 }
